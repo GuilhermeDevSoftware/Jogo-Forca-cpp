@@ -4,12 +4,9 @@ using namespace std;
 
 const string PALAVRA_SECRETA = "MELANCIA";
 
-//Declarando função
 bool letra_existe(char chute){
-    for(int i = 0; i < PALAVRA_SECRETA.size(); i++){
-        if(chute == PALAVRA_SECRETA[i]){
-            return true;
-        }
+    for(char letra : PALAVRA_SECRETA){
+        if(chute == letra) return true;
     }
     return false;
 }
