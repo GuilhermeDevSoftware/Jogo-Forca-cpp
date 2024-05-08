@@ -1,0 +1,1 @@
+void adciona_palavra();
