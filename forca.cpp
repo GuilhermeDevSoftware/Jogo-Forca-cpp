@@ -27,7 +27,6 @@ map<char, bool> chutou;
 vector<char> chutes_errados;
 
 int main(){
-
     abertura();
     le_arquivo();
     sorteia_palavra();
